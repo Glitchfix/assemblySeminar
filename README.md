@@ -11,7 +11,7 @@ Now I don't know how others prefer to do it but I think if you can Google up mos
 # Sections
 
 ### 1. Hello World
-Since the dawn of programming languages this has been the way we make computers greet. Here we demonstrate how to do `syswrite(STDIN, "Hello, World!\n", 13)` in assembly. How to load registers and make things move.
+Since the dawn of programming languages this has been the way we make computers greet. Here we demonstrate how to do `syswrite(STDOUT, "Hello, World!\n", 13)` in assembly. How to load registers and make things move.
 
 ### 2. Conditional
 This section deals with the jump calls, comparisons of registers andt setting the flags, making calls by tag names.
@@ -23,7 +23,7 @@ The goal of demonstrating this was not to show how you can see the user input da
 Just the basic ALU operations that are possible and how to use the stack for real. Also we show you how to print a digit, if you think this is straight forward I insist you to take a look at it.
 
 ### 5. Subroutine
-To make it sound easier we just show how to write functions in assembly. The cool thing I could add to it was that in `syswrite(STDIN, "Hello, World!\n", 13) ` the 13 (i.e. the length of bytes) was caluclated automatically.
+To make it sound easier we just show how to write functions in assembly. The cool thing I could add to it was that in `syswrite(STDOUT, "Hello, World!\n", 13) ` the 13 (i.e. the length of bytes) was caluclated automatically.
 
 ### 6. Macros
 Shortening our code we learn to write macros and pass parameters to it and also import assembly code from files.
